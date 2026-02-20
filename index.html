@@ -17,15 +17,23 @@ body{
 header{
     padding:90px 20px;
     text-align:center;
-    background:linear-gradient(135deg,#020617,#1e293b);
+    background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+        background-size: cover;          /* Makes image cover full screen */
+        background-position: center;     /* Center the image */
+        background-repeat: no-repeat;    /* Prevent repeat */
+        background-attachment: fixed;    /* Optional: Parallax effect */
+
+        	`
 }
 header h1{
     font-size:44px;
+	color:black;
 }
 header p{
     font-size:18px;
-    color:#c7d2fe;
+    color:#2BBDF3;
 }
+
 
 /* SECTION */
 section{
@@ -205,4 +213,5 @@ document.getElementById("queryForm").addEventListener("submit", function(e){
 
 </body>
 </html>
+
 
